@@ -9,6 +9,7 @@
   "devDependencies": {
     "gulp-csslint": "^0.1.5",
     "gulp-html5-lint": "^1.0.1",
+    "gulp-htmllint": "0.0.5",
     "gulp-jslint": "^0.2.2",
     "gulp-livereload": "^3.8.0",
     "gulp-watch": "^4.3.3"

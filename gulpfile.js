@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var livereload = require('gulp-livereload');  
 var csslint = require('gulp-csslint'); 
 var html5Lint = require('gulp-html5-lint');
+var htmllint = require('gulp-htmllint');
 var watch = require('gulp-watch');
 var jslint = require('gulp-jslint');
 
@@ -23,7 +24,7 @@ gulp.task('js', function () {
                     
                     console.log(msg);
                 }
-            }))
+            }))  
             .pipe(livereload());
 });
 //lint all css
@@ -37,7 +38,7 @@ gulp.task('css', function() {
 //lint all js 
 gulp.task('html5-lint', function() {
     return gulp.src('./project/**/**/**/**/**/*.html')
-        .pipe(html5Lint())
+        .pipe(htmllint()) 
         .pipe(livereload());
 });
 
