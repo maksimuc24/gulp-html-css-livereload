@@ -1,0 +1,28 @@
+{
+  "name": "gulp-html-css-livereload",
+  "version": "1.0.0",
+  "description": "grunt seeder",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-csslint": "^0.1.5",
+    "gulp-html5-lint": "^1.0.1",
+    "gulp-livereload": "^3.8.0",
+    "gulp-watch": "^4.3.3" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksimuc24/gulp-html-css-livereload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksimuc24/gulp-html-css-livereload/issues"
+  },
+  "homepage": "https://github.com/maksimuc24/gulp-html-css-livereload#readme"
+}
